@@ -13,14 +13,11 @@ codes for the following two models
 <li><b> Tensor recovery from Gaussian measurements by tensor nuclear norm minimization <br/><br/>
   
 <a href="https://www.codecogs.com/eqnedit.php?latex=\min_{\mathcal{X}}&space;\|\mathcal{X}\|_*,&space;\&space;\text{s.t.}&space;\&space;y=\Phi(\mathcal{X})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\min_{\mathcal{X}}&space;\|\mathcal{X}\|_*,&space;\&space;\text{s.t.}&space;\&space;y=\Phi(\mathcal{X})" title="\min_{\mathcal{X}} \|\mathcal{X}\|_*, \ \text{s.t.} \ y=\Phi(\mathcal{X})" /></a>
-  
-  
 </ol>
 
 
 
 References:
-
 <ol>
 <li> Canyi Lu, Jiashi Feng, Zhouchen Lin, Shuicheng Yan. Exact Low Tubal Rank Tensor Recovery from Gaussian Measurements. International Joint Conference on Artificial Intelligence (IJCAI). 2018
 
