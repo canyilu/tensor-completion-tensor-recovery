@@ -1,6 +1,7 @@
 # Tensor-completion and Tensor-recovery from Gaussian measurements
 
 codes for the following two models
+
 <ol>
     
 <li><b> Tensor completion by tensor nuclear norm minimization<br/><br/>
