@@ -1,4 +1,4 @@
-# Tensor-completion and Tensor-recovery from Gaussian measurements
+# Tensor completion and Tensor recovery from Gaussian measurements
 
 codes for the following two models
 
