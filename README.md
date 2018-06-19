@@ -1,6 +1,6 @@
-# Tensor completion and Tensor recovery from Gaussian measurements
+## Tensor completion and Tensor recovery from Gaussian measurements
 
-codes for the following two models
+### Codes for the following two models
 
 <ol>
     
@@ -17,9 +17,22 @@ codes for the following two models
 
 
 
-References:
+### Related Toolboxes
+The t-product toolbox has been applied in our works about tensor roubst PCA <a class="footnote-reference" href="#id2" id="id1">[2,3]</a>, low-rank tensor completion and low-rank tensor recovery from Gaussian measurements <a class="footnote-reference" href="#id2" id="id1">[4]</a>.
+<ul>
+  <li> <a href="https://github.com/canyilu/tproduct" class="textlink">Tensor-Tensor Product Toolbox</a></li>       
+  <li> <a href="https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA" class="textlink">Tensor robust principal component analysis </a></li>       
+  <li> <a href="https://github.com/canyilu/LibADMM" class="textlink">A Library of ADMM for Sparse and Low-rank Optimization </a></li>
+</ul>
+
+
+
+
+### References
 <ol>
 <li> Canyi Lu, Jiashi Feng, Zhouchen Lin, Shuicheng Yan. Exact Low Tubal Rank Tensor Recovery from Gaussian Measurements. International Joint Conference on Artificial Intelligence (IJCAI). 2018
+    
+<li> Canyi Lu. Tensor-Tensor Product Toolbox. Carnegie Mellon University, June 2018. https://github.com/canyilu/tproduct.
 
 <li> Canyi Lu, Jiashi Feng, Yudong Chen, Wei Liu, Zhouchen Lin, Shuicheng Yan. Tensor Robust Principal Component Analysis with A New Tensor Nuclear Norm. arXiv:1804.03728. 2018
 
