@@ -2,10 +2,8 @@
 
 ### Introduction
 
-Our work [1] gives the 
-
-<ol>
-    
+In our work [1], we give the exact recovery guarantees of tensor completion and tensor recovery from Gaussian measurements by tensor nuclear norm minimization. We also provide the codes for both models.
+<ol>    
 <li><b> Tensor completion by tensor nuclear norm minimization</b><br/>
     
 <a href="https://www.codecogs.com/eqnedit.php?latex=\min_{\mathcal{X}}&space;\|\mathcal{X}\|_*,&space;\&space;\text{s.t.}&space;\&space;\mathcal{P}_{\Omega}(\mathcal{X})=\mathcal{P}_{\Omega}(\mathcal{M})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\min_{\mathcal{X}}&space;\|\mathcal{X}\|_*,&space;\&space;\text{s.t.}&space;\&space;\mathcal{P}_{\Omega}(\mathcal{X})=\mathcal{P}_{\Omega}(\mathcal{M})" title="\min_{\mathcal{X}} \|\mathcal{X}\|_*, \ \text{s.t.} \ \mathcal{P}_{\Omega}(\mathcal{X})=\mathcal{P}_{\Omega}(\mathcal{M})" /></a>
@@ -19,7 +17,6 @@ Our work [1] gives the
 
 
 ### Related Toolboxes
-The t-product toolbox has been applied in our works about tensor roubst PCA <a class="footnote-reference" href="#id2" id="id1">[2,3]</a>, low-rank tensor completion and low-rank tensor recovery from Gaussian measurements <a class="footnote-reference" href="#id2" id="id1">[4]</a>.
 <ul>
   <li> <a href="https://github.com/canyilu/tproduct" class="textlink">Tensor-Tensor Product Toolbox</a></li>       
   <li> <a href="https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA" class="textlink">Tensor robust principal component analysis </a></li>       
