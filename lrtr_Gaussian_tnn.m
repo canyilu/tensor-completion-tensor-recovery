@@ -1,4 +1,4 @@
-function [X,trank,obj,err,iter] = lrtr_Gaussian_tnn(A,b,Xsize,opts)
+function [X,obj,err,iter] = lrtr_Gaussian_tnn(A,b,Xsize,opts)
 
 % Low tubal rank tensor recovery from Gaussian measurements by tensor
 % nuclear norm minimization
@@ -68,7 +68,7 @@ for iter = 1 : max_iter
     Xk = X;
     Zk = Z;
     % update X
-    [X,Xtnn,trank] = prox_tnn(Z-Y2/mu,1/mu);
+    [X,Xtnn] = prox_tnn(Z-Y2/mu,1/mu);
     % update Z
     vecZ = invA*(A'*(-Y1/mu+b)+Y2(:)/mu+X(:));
     Z = reshape(vecZ,n1,n2,n3);
