@@ -4,7 +4,7 @@
 
 In our work [1], we give the exact recovery guarantees of tensor completion and tensor recovery from Gaussian measurements by tensor nuclear norm minimization. The tensor nuclear norm was proposed in our works [3][4]. A more general tensor nuclear norm undear general invertible linear transform was proposed in [5] and applied to tensor completion [5] and tensor robust PCA [6].
 
-We also provide the codes for both models.
+We provide the codes of the following two models in [1].
 <ol>    
 <li><b> Tensor completion by tensor nuclear norm minimization</b><br/>
     
